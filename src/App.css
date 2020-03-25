@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #303030;
+  color: #dedede;
+}
+
+.login {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login h2,.blogs h2 {
+  font-size: 30px;
+}
+
+.loginForm {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.loginForm input, .loginForm button {
+  margin: 5px 0;
+  padding: 5px;
+  outline: none;
+}
+
+.loginForm button {
+  width: 50%;
+  color: #fff;
+  background: #187324;
+  border: 2px solid #1d8c2c;
+}
+
+.loginForm button:hover {
+  background: #3a9546;
+  cursor: pointer;
+}
+
+.blogs {
+  width: 300px;
+  margin: 10px;
+}
+
+.blog {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  background: #2d5062;
+  border: 2px solid #085064;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.blog button {
+  margin: 5px;
+}
+
+.blog p {
+  margin: 5px 0;
+}
+
+.logout, .cancel, .showBlog {
+  margin: 5px 0 15px 0;
+  padding: 5px;
+  color: #fff;
+  background: #ab120a;
+  border: 2px solid #800f09;
+  outline: none;
+}
+
+.logout:hover, .cancel:hover {
+  background: #cd342c;
+  cursor: pointer;
+}
+
+.showBlog {
+  background: #4c93a8;
+  border: 2px solid #196075;
+}
+
+.showBlog:hover {
+  background: #5da4b9;
+  cursor: pointer;
+}
+
+.cancel {
+  width: 100%;
+}
+
+.newBlog, .newBlog h2 {
+  margin: 5px 0;
+}
+
+.newBlog form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newBlog form input, .newBlog form button, .show {
+  margin: 5px 0;
+  padding: 5px;
+  outline: none;
+}
+
+.newBlog form button, .show {
+  color: #fff;
+  background: #187324;
+  border: 2px solid #1d8c2c;
+}
+
+.newBlog form button:hover, .show {
+  background: #3a9546;
+  cursor: pointer;
+}
+
+.error, .new {
+  background: #918483;
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid #eb2717;
+  color: #eb2717;
+  width: 550px;
+}
+
+.new {
+  border: 3px solid #138717;
+  color: #138717;
+  width: 700px;
+}
+
+.showB {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  background: #2d5062;
+  border: 2px solid #085064;
+  border-radius: 5px;
+}
+
+.showB p {
+  margin: 5px 0;
+}
+
+.like button {
+  margin: 0 5px;
+  background: #1c7f30;
+  padding: 5px;
+  color: #dfdfdf;
+  border: 2px solid #0a5d10;
+  border-radius: 5px;
+  outline: none;
+}
+
+.like button:hover {
+  background: #3e9f52;
+  cursor: pointer;
+}
